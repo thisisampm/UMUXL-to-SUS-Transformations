@@ -11,7 +11,6 @@ This project explores different mathematical transformations of an input attitud
 - RMSE and pattern match (slope) evaluation
 - Linear, power, sigmoid, and saturating sweep optimization
 - Reproducible transformation plots
-- GitHub-ready organization
 
 ## Usage
 
