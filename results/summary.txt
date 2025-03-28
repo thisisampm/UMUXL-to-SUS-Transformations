@@ -1,0 +1,76 @@
+
+=== Transformation Comparison Summary ===
+RMSE:
+  A1 (Legacy)    : 14.93
+  A2 (Structure) : 18.22
+  A3 (Balanced)  : 23.87
+
+Pattern Alignment (Slope of diff → SUS):
+  A1 - A2 → SUS  : -1.38
+  A3 - A2 → SUS  : -11399.54
+
+A3 Formula: A3 = 8.333 * A + 0.008
+Best tradeoff weight used: 5.00
+========================================
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('table')" style="font-weight:bold">table</a>
+All table variables must have the same number of rows.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('compare_transformations_linear_balanced', 'C:\Users\amiller\Documents\MATLAB\TestSci\UMUX_transform\Final\code\compare_transformations_linear_balanced.m', 40)" style="font-weight:bold">compare_transformations_linear_balanced</a> (<a href="matlab: opentoline('C:\Users\amiller\Documents\MATLAB\TestSci\UMUX_transform\Final\code\compare_transformations_linear_balanced.m',40,0)">line 40</a>)
+dataTable = table(participantID, day, SUS, A1', A2_scores, A3, ...
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('run_full_transformation_analysis', 'C:\Users\amiller\Documents\MATLAB\TestSci\UMUX_transform\Final\run_full_transformation_analysis.m', 57)" style="font-weight:bold">run_full_transformation_analysis</a> (<a href="matlab: opentoline('C:\Users\amiller\Documents\MATLAB\TestSci\UMUX_transform\Final\run_full_transformation_analysis.m',57,0)">line 57</a>)
+compare_transformations_linear_balanced(A, A2, C);
+} 
+run_full_transformation_analysis
+
+=== Transformation Comparison Summary ===
+RMSE:
+  A1 (Legacy)    : 14.93
+  A2 (Structure) : 18.22
+  A3 (Balanced)  : 13.64
+
+Mixed-Effects Pattern Alignment:
+  A1 - A2 → SUS  : Slope = -1.23, p = 0.0000
+  A3 - A2 → SUS  : Slope = -0.85, p = 0.0000
+
+A3 Formula: A3 = 4.095 * A + 17.751
+Best tradeoff weight used: 1.42
+========================================
+
+✅ Best balanced solution found:
+Weight: 0.50
+A3 = 3.701 * A + 20.843
+RMSE: 13.67, Slope: -0.87
+
+=== Transformation Comparison Summary ===
+RMSE:
+  A1 (Legacy)    : 14.93
+  A2 (Structure) : 18.22
+  A3 (Balanced)  : 13.67
+
+Mixed-Effects Pattern Alignment:
+  A1 - A2 → SUS  : Slope = -1.23, p = 0.0000
+  A3 - A2 → SUS  : Slope = -0.78, p = 0.0000
+
+A3 Formula: A3 = 3.701 * A + 20.843
+Best tradeoff weight used: 0.50
+========================================
+
+✅ Best balanced solution found:
+Weight: 0.50
+A3 = 3.701 * A + 20.843
+RMSE: 13.67, Slope: -0.87
+
+=== Transformation Comparison Summary ===
+RMSE:
+  A1 (Legacy)    : 14.93
+  A2 (Structure) : 18.22
+  A3 (Balanced)  : 13.67
+
+Mixed-Effects Pattern Alignment:
+  A1 - A2 → SUS  : Slope = -1.23, p = 0.0000
+  A3 - A2 → SUS  : Slope = -0.78, p = 0.0000
+
+A3 Formula: A3 = 3.701 * A + 20.843
+Best tradeoff weight used: 0.50
+========================================
